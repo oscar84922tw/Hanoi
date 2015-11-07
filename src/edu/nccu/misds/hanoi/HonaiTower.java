@@ -55,6 +55,7 @@ public class HonaiTower {
 					execute(n - 1,src,spare,dest);
 		            int fir = src.top();
 		            dest.push(fir);
+		            src.pop();
 		            execute(n - 1, src, dest,spare);
 		            
 				}
